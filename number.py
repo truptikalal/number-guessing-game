@@ -1,7 +1,7 @@
 import random
 
-secret_no=random.randint(1,100)
-tries_left = 7
+secret_no=random.randint(1,100) #random number
+tries_left = 7 #to track the number of attempts left in a loop or game. 
 
 while tries_left > 0:
     try:
